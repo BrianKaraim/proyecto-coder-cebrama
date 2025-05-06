@@ -7,3 +7,5 @@ En el archivo index.html, utilicé Flexbox principalmente para estructurar la p�
 Tanto en login.html como en register.html, empleé Bootstrap para asegurar que el contenido se ajuste al 100% del alto de la página, ya que, por alguna razón, no lo hacía de forma automática.
 
 Además, apliqué efectos en los botones de carrito de compras y en el botón desplegable para mejorar la interacción y la experiencia de usuario.
+
+Todos los html son responsive.
