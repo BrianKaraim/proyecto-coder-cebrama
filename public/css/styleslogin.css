@@ -1,0 +1,63 @@
+
+main {
+    background-color: #F9EBEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+h2{
+    color: #9B7E68;
+}
+
+.create-form{
+   background-color: #715948;
+    padding: 50px;
+    text-align: center;
+    display: block;
+    border-radius: 400px;
+}
+
+
+.control{
+    padding: 5px;
+    font-size: 8px;
+}
+
+.button-login{
+    background-color: #9B7E68;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.control-form{
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+
+label{
+    display: block;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.checkbox-container{
+    margin-top: 5px;
+    align-items: center;
+    position: relative;
+}
+
+@media (max-width:500px) {
+    main{
+        height: 70vh;
+    }
+}

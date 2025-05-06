@@ -1,0 +1,540 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    background-color: #F9EBEA;
+}
+
+.header {
+    background-color: #FAE5D3;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.div-contenedor {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.div-logo {
+    flex: 0 0 20%;
+    position: relative;
+  
+}
+
+.logo {
+    width: 100%;
+    padding: 0px;
+    border-radius: 400px;
+}
+
+.main-searchbar {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.searchbar {
+    background-color: #ebebeb;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0px 0px 7px rgb(105, 105, 105);
+}
+
+.input {
+    width: 85%;
+    background-color: #ebebeb;
+    border: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0%;
+    display: flex;
+}
+
+.ul {
+    grid-area: ul;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 1px;
+    margin-right: 15px;
+}
+
+.div-todo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-all {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.sectionmainconcarrousel {
+    display: inline-block;
+    width: 100vw;
+    padding-top: 10px;
+}
+
+.div-tranform {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contain {
+   margin: 1.25rem;
+    text-align: center;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.carr {
+    width: 100%;
+    text-align: center;
+}
+
+.grande {
+    width: 100%;
+
+}
+
+.grande img {
+
+    width: 94%;
+    margin: auto;
+    object-fit: contain;
+
+}
+
+.puntos {
+    width: 100%;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.punto {
+    width: 2em;
+    height: 1em;
+    margin: 1em 1em 0;
+
+}
+
+.section-button {
+    margin: auto;
+    display: none;
+}
+
+.section-button button i {
+    font-size: 2.5rem;
+    background-color: #9B7E68;
+}
+
+.secctionconsearchnav {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.secctionconsearchnav .headerdelsection {
+    border: solid 1px #9B7E68;
+    padding: 1px;
+}
+
+.secctionconsearchnav .divconnav {
+    border: solid 1px #9B7E68;
+}
+
+.divconnav ul {
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.divconnav a {
+    text-decoration: none;
+    color: #222222;
+    margin: auto;
+    font-size: 20px;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.imgarticle {
+    background-color: transparent;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+}
+
+
+.secctionsconarticles img {
+    width: 20vw;
+}
+
+.secctionsconarticles {
+    font-size: 10px;
+    display: inline-grid;
+    width: 100%;
+}
+
+.headerdelsectiondelmain {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.headerdelsectiondelmain a {
+    font-size: 2.4em;
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.article-productos {
+    flex: 0 0 20%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    background-color: #FAE5D3;
+    border: solid 1px;
+    margin-bottom: 30px;
+}
+
+.infodetail {
+    background-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 300ms;
+    margin: 20px 0;
+}
+
+.infodetail a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+
+.imgarticle img {
+    width: 100%;
+    height: 35vh;
+    object-fit: contain;
+}
+
+.divcontodaladescripcion {
+    padding: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: solid 1px #9B7E68;
+    transition: all 1000ms;
+}
+
+.divcontodaladescripcion:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.divcontodaladescripcion h2 {
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.div-precio-carrito {
+    font-size: 2.4em;
+    font-weight: 300;
+    padding: 9px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-right: 21px;
+    justify-content: space-around;
+}
+
+.div-precio-carrito i {
+    margin: 5px;
+    color: rgb(109, 80, 255);
+    transition: color 0.3s ease;
+}
+
+.div-precio-carrito i:hover {
+    color: green;
+}
+
+footer {
+    background-color: #9B7E68;
+    display: flex;
+}
+
+.div-contenido-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.sectiondelfooter-1 {
+    flex: 0 0 35%;
+    max-width: 35%;
+    width: 100%;
+    margin-top: 13px;
+
+}
+
+.sectiondelfooter-2 {
+    flex: 0 0 65%;
+    max-width: 55%;
+    width: 100%;
+    margin-top: 13px;
+    margin-left: 23px;
+}
+
+.searchbarfooter {
+    margin-left: 10px;
+    display: contents;
+}
+
+.divprincipal {
+    display: flex;
+}
+
+.divprincipal .divdelprincipal-1 {
+    margin-right: 13px;
+}
+
+.divdelprincipal-1 i {
+    display: block;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.divdelprincipal-2 a {
+    display: block;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.divconh5ydiv {
+    display: flex;
+    margin-bottom: 13px;
+}
+
+.divconh5ydiv .emailbar {
+    width: 17vw;
+    height: 3vh;
+}
+
+.buttonsubmit {
+    height: 3vh;
+}
+
+.section-footer-button {
+    display: none;
+}
+
+.button-bell {
+    margin: .625rem;
+}
+
+.button-bell i {
+    font-size: 45px;
+    background-color: antiquewhite;
+    display: block;
+}
+
+.button-info {
+    margin: .625rem;
+    display: block;
+}
+
+.button-info i {
+    font-size: 45px;
+    display: block;
+    background-color: antiquewhite;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.jump-button {
+    position: relative;
+    animation: jump 0.5s infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:1000px) {
+  
+
+    .div-ul-header {
+        margin: auto;
+    }
+
+    .grande img {
+        width: 40%;
+    }
+
+    .puntos {
+        width: 106%;
+    }
+
+    .article-productos {
+        flex: 0 0 40%;
+    }
+
+    .div-contenido-footer {
+        display: grid;
+        grid-template-areas: "sectionfooter-1" "sectionfooter-2" "section-footer-button";
+    }
+
+    .sectiondelfooter-1 {
+        max-width: none;
+        order: 2;
+    }
+
+    .divprincipal {
+        justify-content: center;
+    }
+
+    .sectiondelfooter-2 {
+        max-width: none;
+        text-align: center;
+        order: 1;
+    }
+
+    .divconh5ydiv {
+        justify-content: center;
+        margin-top: 13px;
+    }
+}
+
+@media (max-width:500px) {
+    .header-nav a {
+        font-size: 10px;
+    }
+
+    .nosotros{
+        display: none;
+    }
+    
+    .searchbar {
+        padding: 2px;
+    }
+
+    .secctionconsearchnav {
+        display: none;
+    }
+
+    .section-button {
+        display: block;
+        z-index: 10;
+    }
+    
+    .secctionsconarticles{
+        z-index: 1;
+    }
+
+    .article-productos {
+        flex: none;
+    }
+
+    .div-contenido-footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-footer-button {
+        order: 2;
+        margin: auto;
+        display: block;
+    }
+
+    .sectiondelfooter-2 {
+        display: none;
+    }
+
+    .divdelprincipal-1 {
+        font-size: 13px;
+    }
+
+    .divdelprincipal-2 {
+        font-size: 13px;
+    }
+}
