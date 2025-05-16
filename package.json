@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-coder-cebrama",
+  "version": "1.0.0",
+  "description": "Este archivo fue creado con el objetivo de explicar cómo apliqué los conocimientos adquiridos en clase.",
+  "homepage": "https://github.com/BrianKaraim/proyecto-coder-cebrama#readme",
+  "bugs": {
+    "url": "https://github.com/BrianKaraim/proyecto-coder-cebrama/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianKaraim/proyecto-coder-cebrama.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sass": "^1.89.0"
+  }
+}

@@ -1,0 +1,55 @@
+body {
+  border: solid 1px black;
+}
+
+header {
+  background-color: #fae5d3;
+  width: 100%;
+}
+
+.main {
+  background-color: #f9ebea;
+  border: solid 1px black;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+
+.sectiondelheader {
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.sectiondelheader i {
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+section div {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+section div label {
+  display: block;
+}
+
+.form-input {
+  width: 90%;
+}
+
+.sectionconboton {
+  margin-top: 20px;
+}
+
+.divconboton button {
+  border: 1px solid black;
+  padding: 6px;
+  text-decoration: none;
+  color: black;
+  background-color: #9b7e68;
+}
+
+/*# sourceMappingURL=styleregister.css.map */

@@ -1,0 +1,119 @@
+@use "../utilities/variables" as vars;
+@use "../utilities/mixins" as *;
+
+main {
+  background-color: vars.$main-color;
+}
+
+.div-todo {
+  @include flex(flex, wrap);
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-all {
+  @include flex(flex, wrap);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+@import "../components/carrousel";
+
+.section-button {
+  margin: auto;
+  display: none;
+  button {
+    i {
+      font-size: 2.5rem;
+      background-color: vars.$footer-color;
+    }
+  }
+}
+
+.secctionconsearchnav {
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  .headerdelsection {
+    border: solid 1px vars.$footer-color;
+    padding: 1px;
+  }
+}
+
+.secctionconsearchnav .divconnav {
+  border: solid 1px vars.$footer-color;
+  ul {
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+  }
+  li {
+    a {
+      text-decoration: none;
+      color: #222222;
+      margin: auto;
+      font-size: 20px;
+    }
+  }
+}
+
+.div-tranform {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.jump-button {
+  position: relative;
+  animation: jump 0.5s infinite;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.secctionsconarticles {
+  font-size: 10px;
+  display: inline-grid;
+  width: 100%;
+  img {
+    width: 20vw;
+  }
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.headerdelsectiondelmain {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  a {
+    font-size: 2.4em;
+    text-decoration: none;
+    color: #222222;
+  }
+}
+
+@import "../components/card";

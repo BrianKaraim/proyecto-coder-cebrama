@@ -1,0 +1,55 @@
+@use "../utilities/variables" as vars;
+@use "../utilities/mixins" as *;
+
+body {
+  border: solid 1px black;
+}
+
+header {
+  background-color: vars.$header-color;
+  width: 100%;
+}
+
+.main {
+  background-color: vars.$main-color;
+  border: solid 1px black;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+
+.sectiondelheader {
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+  i {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+}
+
+section div {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  label {
+    display: block;
+  }
+}
+
+.form-input {
+  width: 90%;
+}
+.sectionconboton {
+  margin-top: 20px;
+}
+
+.divconboton button {
+  border: 1px solid black;
+  padding: 6px;
+  text-decoration: none;
+  color: black;
+  background-color: vars.$footer-color;
+}

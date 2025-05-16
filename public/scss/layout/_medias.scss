@@ -1,0 +1,97 @@
+@media (max-width: 1000px) {
+  .div-ul-header {
+    margin: auto;
+  }
+
+  .grande img {
+    width: 40%;
+  }
+
+  .puntos {
+    width: 106%;
+  }
+
+  .article-productos {
+    flex: 0 0 40%;
+  }
+
+  .div-contenido-footer {
+    display: grid;
+    grid-template-areas: "sectionfooter-1" "sectionfooter-2" "section-footer-button";
+  }
+
+  .sectiondelfooter-1 {
+    max-width: none;
+    order: 2;
+  }
+
+  .divprincipal {
+    justify-content: center;
+  }
+
+  .sectiondelfooter-2 {
+    max-width: none;
+    text-align: center;
+    order: 1;
+  }
+
+  .divconh5ydiv {
+    justify-content: center;
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-nav a {
+    font-size: 10px;
+  }
+
+  .nosotros {
+    display: none;
+  }
+
+  .searchbar {
+    padding: 2px;
+  }
+
+  .secctionconsearchnav {
+    display: none;
+  }
+
+  .section-button {
+    display: block;
+    z-index: 10;
+  }
+
+  .secctionsconarticles {
+    z-index: 1;
+  }
+
+  .article-productos {
+    flex: none;
+  }
+  .div-contenedor{
+    font-size: 20px;
+  }
+  .div-contenido-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-footer-button {
+    order: 2;
+    margin: auto;
+    display: block;
+  }
+
+  .sectiondelfooter-2 {
+    display: none;
+  }
+
+  .divdelprincipal-1 {
+    font-size: 13px;
+  }
+
+  .divdelprincipal-2 {
+    font-size: 13px;
+  }
+}

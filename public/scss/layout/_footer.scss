@@ -1,0 +1,90 @@
+@use "../utilities/variables" as vars;
+@use "../utilities/mixins" as *;
+
+footer {
+  background-color: vars.$footer-color;
+  @include flex(flex, none);
+}
+
+.div-contenido-footer {
+  @include flex(flex, wrap);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.sectiondelfooter-1 {
+  flex: 0 0 35%;
+  max-width: 35%;
+  width: 100%;
+  margin-top: 13px;
+}
+
+.sectiondelfooter-2 {
+  flex: 0 0 65%;
+  max-width: 55%;
+  width: 100%;
+  margin-top: 13px;
+  margin-left: 23px;
+}
+
+.searchbarfooter {
+  margin-left: 10px;
+  display: contents;
+}
+
+.divprincipal {
+  @include flex(flex, none);
+  .divdelprincipal-1 {
+    margin-right: 13px;
+    i {
+      display: block;
+      margin-top: 14px;
+      text-align: center;
+    }
+  }
+  .divdelprincipal-2 a {
+    display: block;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.divconh5ydiv {
+  @include flex(flex, none);
+  margin-bottom: 13px;
+  .emailbar {
+    width: 17vw;
+    height: 3vh;
+  }
+}
+
+.buttonsubmit {
+  height: 3vh;
+}
+
+.section-footer-button {
+  display: none;
+}
+
+.button-bell {
+  margin: 0.625rem;
+  i {
+    font-size: 45px;
+    background-color: antiquewhite;
+    display: block;
+  }
+}
+
+.button-info {
+  margin: 0.625rem;
+  display: block;
+  i {
+    font-size: 45px;
+    display: block;
+    background-color: antiquewhite;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}

@@ -1,0 +1,61 @@
+@use "../utilities/variables" as vars;
+@use "../utilities/mixins" as *;
+
+.header {
+  background-color: vars.$header-color;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.div-contenedor {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-contenido {
+  @include flex(flex, wrap);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.div-logo {
+  flex: 0 0 20%;
+  position: relative;
+}
+
+.logo {
+  width: 100%;
+  padding: 0px;
+  border-radius: 400px;
+}
+
+.main-searchbar {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.searchbar {
+  background-color: #ebebeb;
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0px 0px 7px rgb(105, 105, 105);
+}
+
+.input {
+  width: 85%;
+  background-color: #ebebeb;
+  border: none;
+}
+
+@import "../components/header-nav";
+
+.ul {
+  grid-area: ul;
+}

@@ -1,18 +1,21 @@
+@use "../utilities/variables" as vars;
+@use "../utilities/mixins" as *;
+
 
 main {
-    background-color: #F9EBEA;
-    display: flex;
+    @include flex(flex, none);
+    background-color: vars.$main-color-login;
     align-items: center;
     justify-content: center;
     padding: 10%;
 }
 
 h2{
-    color: #9B7E68;
+    color: vars.$footer-color;
 }
 
 .create-form{
-   background-color: #715948;
+   background-color:vars.$form-login;
     padding: 50px;
     text-align: center;
     display: block;
@@ -26,7 +29,7 @@ h2{
 }
 
 .button-login{
-    background-color: #9B7E68;
+    background-color: vars.$footer-color;
     border: none;
     font-size: 12px;
     font-weight: bold;
@@ -56,8 +59,4 @@ label{
     position: relative;
 }
 
-@media (max-width:500px) {
-    main{
-        height: 70vh;
-    }
-}
+@import "../components/medialogin";
