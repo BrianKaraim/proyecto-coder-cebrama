@@ -9,8 +9,6 @@ main {
   @include flex(flex, wrap);
   justify-content: space-between;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -71,23 +69,7 @@ main {
   padding-left: 15px;
 }
 
-.jump-button {
-  position: relative;
-  animation: jump 0.5s infinite;
-}
-@keyframes jump {
-  0% {
-    transform: translateY(0);
-  }
 
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
 
 .secctionsconarticles {
   font-size: 10px;
@@ -117,3 +99,4 @@ main {
 }
 
 @import "../components/card";
+

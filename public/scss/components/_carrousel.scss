@@ -1,11 +1,7 @@
 @use "../utilities/variables" as vars;
 @use "../utilities/mixins" as *;
 
-.sectionmainconcarrousel {
-  display: inline-block;
-  width: 100vw;
-  padding-top: 10px;
-}
+
 
 .contain {
   margin: 1.25rem;
